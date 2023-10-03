@@ -1,0 +1,77 @@
+/* move admin login to the top right corner */
+
+.admin-login {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #00008b;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.admin-login:hover {
+  background-color: #00008b;
+}
+
+.adminLoginButton {
+  background-color: #00008b;
+  color: #add8e6;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.adminLoginButton:hover {
+  background-color: #00008b; /* Slightly darker shade of light blue */
+}
+
+.loginForm {
+  width: 300px;
+  margin: 0 auto;
+
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-button {
+  width: 200px;
+  padding: 12px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.login-username {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  margin-top: 20px;
+  padding: 10px
+
+}
+
+.login-password {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  margin-top: 20px;
+  padding: 10px
+}
+.login-form-title {
+  background-color: #00008b;
+  color: #add8e6;
+  text-align: center;
+  width: 250px;
+  margin-left: 18px;
+  padding: 10px;
+}
