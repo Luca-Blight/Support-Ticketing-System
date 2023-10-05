@@ -35,10 +35,10 @@ const Login = ({ onLoginSuccess }) => {
       <h1 className='login-form-title'>Admin Login</h1>
       <div>
         <input
-          className='login-username'
+          className='login-email'
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          placeholder='Username'
+          placeholder='Email'
         />
         <input 
           className='login-password'

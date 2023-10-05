@@ -19,7 +19,7 @@ function HeaderButton({ loggedIn }) {
   const location = useLocation();
   const isLoginPage = location.pathname === '/login';
 
-  if (loggedIn) return null; // Don't display the button if logged in
+  if (loggedIn) return null; 
 
   return (
     <Link

@@ -7,11 +7,12 @@ const TicketForm = () => {
     const [lastName, setLastName] = useState('');
     const [email, setEmail] = useState('');
     const [description, setDescription] = useState('');
+    const [status, setStatus] = useState('New');
 
     const handleSubmit = async (event) => {
         event.preventDefault();
         const response = await axios.post('http://localhost:8000/tickets/', {
-            firstName, lastName, email, description
+            firstName, lastName, email, description, status
         });
         console.log(response.data);
     }
