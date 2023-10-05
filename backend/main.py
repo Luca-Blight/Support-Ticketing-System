@@ -12,6 +12,7 @@ app.include_router(router)
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    "https://ed20659bca65.ngrok.app"
 ]
 
 app.add_middleware(
