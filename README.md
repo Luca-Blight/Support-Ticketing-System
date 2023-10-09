@@ -1,5 +1,9 @@
 # Ticket Support System
 
+## Overview
+
+Three pages for this application, home page(ticket submission form), log-in page, and tickets page(accessed only by admin).
+For tickets page will allow you to see ticket details, respond to the ticket, and update the status of that ticket.
 
 ## How to run the project
 
